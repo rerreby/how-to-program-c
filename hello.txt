@@ -1,1 +1,2 @@
-Hello
+Hello, this is my attempt to learn C by the book How to program C, 7th 
+edition. I don't think it'll last long, but who knows
