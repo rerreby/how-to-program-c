@@ -1,2 +1,3 @@
 # Ignore compliled files
 a.out
+.DS_Store
