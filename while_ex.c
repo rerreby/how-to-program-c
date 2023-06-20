@@ -3,14 +3,16 @@
 
 int main()
 {
-    int counter = 2;
+    /* Don't do that, since you don't know if the step can be more or less than 1 */
+    unsigned int step = 1;
 
-    /* While loop */
-    while (counter <= 1000)
-    {
-        counter = 2 * counter;
-        printf( "%d ", counter );
-    }
+    /* Loop through the numbers */
+    while ( step <= 100 )
+        printf( "Current step: %d\n", ( step += 2 ) );
+
+    /* Downward loop example */
+    while ( step >= 2 )
+        printf( "Current downward step: %d\n", ( step -= 2 ) );
 
     /* End of program */
     return 0;
